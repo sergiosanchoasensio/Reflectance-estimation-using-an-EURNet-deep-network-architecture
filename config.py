@@ -41,7 +41,7 @@ epoch = 1500
 
 
 #################################
-# TEST STAGE
+# TESTING STAGE
 #################################
 save_predictions = True #True or False
 path_save_predictions = os.path.join(os.getcwd(),'output','predictions')

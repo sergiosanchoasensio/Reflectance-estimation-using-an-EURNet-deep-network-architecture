@@ -365,6 +365,6 @@ def EURNet(shp=cfg.shape_train_data, weights_path=cfg.path_load_weights):
     if weights_path <> '':
         model.load_weights(weights_path)
     
-    model.compile(optimizer='Adam', loss={'main_output': huber, 'aux_output': huber}, loss_weights={'main_output': 0.8, 'aux_output': 0.2})
+    model.compile(optimizer=Adam(lr=cfg.learning_rate), loss={'main_output': huber, 'aux_output': huber}, loss_weights={'main_output': 0.8, 'aux_output': 0.2})
     
     return model
