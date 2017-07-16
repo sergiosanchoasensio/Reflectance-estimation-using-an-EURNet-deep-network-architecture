@@ -20,7 +20,7 @@ Items in 'Core':
 	2.1) data/sintel
 	2.2) tools
 	2.3) weights
-  2.4) config.py
+  	2.4) config.py
 	2.5) train.py
 	2.6) test.py
   
