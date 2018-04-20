@@ -2,8 +2,6 @@
 
 16.07.17,
 
-Website: http://sergiosancho.eu/
-
 Mail: sergiosanchoasensio@gmail.com
 
 Hello!,
